@@ -1,6 +1,7 @@
 variable "inst_key"{
     description = "informação do id da vpc"
     type = string
+    default = "macos"
 }
 
 
