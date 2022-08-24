@@ -7,6 +7,7 @@ variable "inst_key"{
 variable "inst_ami"{
     description = "informação do id da vpc"
     type = string
+    default = "ami-09e67e426f25ce0d7"
 }
 
 
@@ -19,6 +20,7 @@ variable "inst_type"{
 variable "inst_subnet"{
     description = "informação do id da vpc"
     type = string
+    default = "subnet-f5ed6793"
 }
 
 variable "inst_sg" {
